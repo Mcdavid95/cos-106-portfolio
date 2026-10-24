@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Mcdavid Emereuwa">
+  <title>Contact | Mcdavid Emereuwa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="index.html" class="logo">Mcdavid<span>.</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="section-title">Contact me</h1>
+    <p class="page-intro">
+      Got a question, a project idea or just want to say hi? Send me a message.
+    </p>
+
+    <section class="contact">
+      <aside class="card contact-info">
+        <h2>Let's talk</h2>
+        <p>I'm always happy to chat about backend engineering, open source or coursework.</p>
+        <ul>
+          <li><strong>Location:</strong> Lagos, Nigeria</li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/Mcdavid95" target="_blank" rel="noopener">@Mcdavid95</a></li>
+          <li><strong>School:</strong> MIVA Open University</li>
+        </ul>
+      </aside>
+
+      <form id="contactForm" class="card contact-form" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+          <small class="error"></small>
+        </div>
+        <div class="field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email">
+          <small class="error"></small>
+        </div>
+        <div class="field full">
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="phone" placeholder="08012345678">
+          <small class="error"></small>
+        </div>
+        <div class="field full">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+          <small class="error"></small>
+        </div>
+        <div class="full">
+          <button type="submit" class="btn">Send message</button>
+        </div>
+        <p id="successMessage" class="success" role="status">Thanks! Your message has been sent.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Mcdavid Emereuwa &middot; COS 106 Term Project &middot;
+      <a href="https://github.com/Mcdavid95" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

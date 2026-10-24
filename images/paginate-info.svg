@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f6f6b"/>
+      <stop offset="1" stop-color="#0b2240"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#g)"/>
+  <circle cx="560" cy="60" r="120" fill="#ffffff" opacity="0.06"/>
+  <circle cx="60" cy="330" r="90" fill="#f2a541" opacity="0.12"/>
+  <rect x="48" y="200" width="300" height="10" rx="5" fill="#ffffff" opacity="0.25"/>
+  <rect x="48" y="224" width="220" height="10" rx="5" fill="#ffffff" opacity="0.15"/>
+  <text x="48" y="120" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f2a541">JavaScript · npm package</text>
+  <text x="48" y="170" font-family="Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff">paginate-info</text>
+  <text x="592" y="320" text-anchor="end" font-family="Menlo, monospace" font-size="56" fill="#ffffff" opacity="0.2">[ ]</text>
+</svg>

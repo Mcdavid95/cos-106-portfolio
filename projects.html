@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projects built by Mcdavid Emereuwa">
+  <title>Projects | Mcdavid Emereuwa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="index.html" class="logo">Mcdavid<span>.</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="section-title">Projects</h1>
+    <p class="page-intro">
+      A few things I've built over the years, from REST APIs to a small npm package.
+      The source code for each one is on my GitHub.
+    </p>
+
+    <section class="projects">
+      <article class="card project">
+        <img src="images/wayfarer.svg" alt="WayFarer API project cover">
+        <div class="project-body">
+          <h3>WayFarer API</h3>
+          <p>
+            A public bus transportation booking server. Admins create trips, users book and
+            cancel seats. Built with Express and PostgreSQL, with JWT auth and Swagger docs.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/Mcdavid95/way-farer-api" target="_blank" rel="noopener">Source code &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card project">
+        <img src="images/idea-box.svg" alt="Idea Box project cover">
+        <div class="project-body">
+          <h3>Idea Box</h3>
+          <p>
+            A place to pool ideas and collaborate. Users write ideas in Markdown, make them
+            public or private, comment and filter by category. React and Redux on top of a
+            Node.js and MongoDB API.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/Mcdavid95/Idea-Box" target="_blank" rel="noopener">Source code &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card project">
+        <img src="images/paginate-info.svg" alt="paginate-info project cover">
+        <div class="project-body">
+          <h3>paginate-info</h3>
+          <p>
+            A small npm module that works out limit and offset for a page and returns
+            pagination meta for API responses. Handy for SQL-backed list endpoints.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/Mcdavid95/paginate-info" target="_blank" rel="noopener">Source code &rarr;</a>
+            <a href="https://www.npmjs.com/package/paginate-info" target="_blank" rel="noopener">npm &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card project">
+        <img src="images/queuing-tut.svg" alt="Queuing service project cover">
+        <div class="project-body">
+          <h3>Queuing Service</h3>
+          <p>
+            A hands-on implementation of a message queue with Node.js and RabbitMQ, exploring
+            producers, consumers and how work gets spread across workers.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/Mcdavid95/queuing-tut" target="_blank" rel="noopener">Source code &rarr;</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Mcdavid Emereuwa &middot; COS 106 Term Project &middot;
+      <a href="https://github.com/Mcdavid95" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

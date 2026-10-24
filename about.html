@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Mcdavid Emereuwa - education, skills and interests">
+  <title>About | Mcdavid Emereuwa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="index.html" class="logo">Mcdavid<span>.</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="section-title">About me</h1>
+    <p class="page-intro">
+      A bit about where I've studied, where I'm heading, the tools I work with and what I do when
+      I'm not writing code.
+    </p>
+
+    <section class="about-grid">
+      <article class="card">
+        <h3>Educational background</h3>
+        <ul class="timeline">
+          <li>
+            <strong>MIVA Open University</strong>
+            <span>B.Sc. Computer Science (in progress) &middot; COS 106 Introduction to Web Technologies</span>
+          </li>
+          <li>
+            <strong>Software engineering bootcamp, Lagos</strong>
+            <span>JavaScript, Node.js, React and test-driven development</span>
+          </li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Career aspirations</h3>
+        <p>
+          I want to grow into a solid systems and backend engineer, designing services that are
+          reliable, easy to run and pleasant for other developers to build on. Right now that
+          means going deeper into distributed systems, Rust and infrastructure, and finishing my
+          degree to strengthen the computer science fundamentals behind the work I already do.
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <h2 class="section-title">Technical skills</h2>
+      <div class="table-wrap">
+        <table>
+          <caption>Tools I use and where I've used them</caption>
+          <thead>
+            <tr>
+              <th scope="col">Area</th>
+              <th scope="col">Tools</th>
+              <th scope="col">Used in</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Languages</td>
+              <td>JavaScript, TypeScript, Python, PHP, Rust (learning)</td>
+              <td>WayFarer API, paginate-info, systems-engr-rust</td>
+            </tr>
+            <tr>
+              <td>Backend</td>
+              <td>Node.js, Express, NestJS, GraphQL, Frappe</td>
+              <td>WayFarer API, graphql-server, microservice-template</td>
+            </tr>
+            <tr>
+              <td>Frontend</td>
+              <td>HTML, CSS, React, Next.js</td>
+              <td>Idea Box, PostIt, nextjs-dashboard</td>
+            </tr>
+            <tr>
+              <td>Data</td>
+              <td>PostgreSQL, MongoDB, Redis, Firebase</td>
+              <td>WayFarer API, Idea Box, redis-cache-node</td>
+            </tr>
+            <tr>
+              <td>DevOps</td>
+              <td>Docker, RabbitMQ, Kubernetes, CI</td>
+              <td>queuing-tut, homelab cluster</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="about-grid">
+      <article class="card">
+        <h3>Core skills</h3>
+        <ul class="tags">
+          <li>API design</li>
+          <li>Databases</li>
+          <li>Testing</li>
+          <li>Git &amp; GitHub</li>
+          <li>Responsive design</li>
+          <li>Message queues</li>
+          <li>Containers</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Hobbies &amp; interests</h3>
+        <ul class="tags">
+          <li>Anime</li>
+          <li>Football</li>
+          <li>Homelab tinkering</li>
+          <li>Open source</li>
+          <li>Learning Rust</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Mcdavid Emereuwa &middot; COS 106 Term Project &middot;
+      <a href="https://github.com/Mcdavid95" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

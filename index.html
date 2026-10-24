@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mcdavid Emereuwa - student portfolio and academic planner">
+  <title>Home | Mcdavid Emereuwa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="index.html" class="logo">Mcdavid<span>.</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Welcome to my portfolio</p>
+        <h1>Hi, I'm Mcdavid Emereuwa</h1>
+        <p>
+          I'm a software engineer based in Lagos, Nigeria and a student at MIVA Open University.
+          I spend most of my time building backend services and APIs with Node.js, TypeScript and
+          Python, and lately I've been learning Rust and running a small Kubernetes homelab.
+          This site is where I keep my projects, my skills and my academic plans in one place.
+        </p>
+        <div class="hero-actions">
+          <a href="projects.html" class="btn">View my projects</a>
+          <a href="contact.html" class="btn btn-outline">Get in touch</a>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <img src="images/avatar.jpg" alt="Photo of Mcdavid Emereuwa">
+      </figure>
+    </section>
+
+    <section>
+      <h2 class="section-title">What I do</h2>
+      <div class="highlights">
+        <article class="card">
+          <h3>Backend &amp; APIs</h3>
+          <p>REST and GraphQL APIs with Node.js, Express and NestJS, backed by PostgreSQL and Redis.</p>
+        </article>
+        <article class="card">
+          <h3>Frontend</h3>
+          <p>Interfaces with React and Next.js, plus plain HTML, CSS and JavaScript like this site.</p>
+        </article>
+        <article class="card">
+          <h3>DevOps</h3>
+          <p>Docker, message queues with RabbitMQ and a multi-architecture Kubernetes homelab.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card intro-audio">
+      <div>
+        <h2>Quick intro</h2>
+        <p>Prefer listening? Here's a short audio welcome.</p>
+      </div>
+      <audio controls preload="metadata">
+        <source src="media/intro.m4a" type="audio/mp4">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Mcdavid Emereuwa &middot; COS 106 Term Project &middot;
+      <a href="https://github.com/Mcdavid95" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
