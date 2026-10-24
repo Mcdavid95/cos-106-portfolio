@@ -361,7 +361,7 @@ tbody tr:hover {
 /* ---------- projects ---------- */
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
 
@@ -658,7 +658,8 @@ tbody tr:hover {
   }
 
   .intro-audio,
-  .contact-form {
+  .contact-form,
+  .projects {
     grid-template-columns: 1fr;
   }
 }
